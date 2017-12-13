@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="我的收藏"
+        android:textSize="22dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Button"
+        android:layout_above="@+id/progressBar4" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Button"
+        android:layout_above="@+id/progressBar4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="我的分类"
+        android:layout_alignBaseline="@+id/button10"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_toRightOf="@+id/button11"
+        android:layout_toEndOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/progressBar4"
+        android:layout_toLeftOf="@+id/textView10"
+        android:layout_toStartOf="@+id/textView10"
+        android:text="全部收藏（数量）" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/progressBar4"
+        android:text="编辑"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_toEndOf="@+id/button8" />
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/imageButton7"
+        android:layout_alignLeft="@+id/imageButton7"
+        android:layout_alignStart="@+id/imageButton7"
+        android:layout_marginTop="14dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_below="@+id/progressBar5"
+        android:layout_marginTop="11dp"
+        android:text="学院风搭配A" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="27dp"
+        android:text="学院风是一种着装风格，以美国的常春藤名校校园为代表。有热衷运动、交际和度假。" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_marginTop="16dp"
+        android:text="XXX2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="25dp"
+        android:text="balabala 介绍" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_alignTop="@+id/imageButton8"
+        android:layout_marginTop="18dp"
+        android:text="XXX3" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="30dp"
+        android:text="balabala 介绍" />
+</RelativeLayout>
