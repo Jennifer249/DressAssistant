@@ -164,12 +164,18 @@
             android:text="场景H"
             />
     </LinearLayout>
-
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/L4"
+        android:id="@+id/view2" />
     <!--风格选择-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/L4"
+        android:layout_below="@+id/view2"
         android:id="@+id/t2"
         android:text="风格选择"
         />
@@ -246,13 +252,19 @@
             />
     </LinearLayout>
 
-
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/L6"
+        android:id="@+id/view" />
     <!--单品推荐-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="单品推荐"
-        android:layout_below="@+id/L6"
+        android:layout_below="@+id/view"
         android:id="@+id/t3"
         />
     <LinearLayout
