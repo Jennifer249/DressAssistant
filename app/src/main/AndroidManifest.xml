@@ -22,7 +22,6 @@
         <activity android:name=".DressStyle"></activity>
         <activity android:name=".MakeupStyle"></activity>
         <activity android:name=".MakeupDetails"></activity>
-        <activity android:name=".MakeupStar"></activity>
         <activity android:name=".MySpace"></activity>
         <activity android:name=".MyCollect"></activity>
         <activity android:name=".MyClass"></activity>
