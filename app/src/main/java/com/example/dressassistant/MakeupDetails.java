@@ -15,13 +15,13 @@ public class MakeupDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.makeupdetails);
-        Button ButtonR=(Button) findViewById(R.id.buttonReturn);
-        ButtonR.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(MakeupDetails.this, MakeupStyle.class);
-                startActivity(intent);
-            }
-        });
+//        Button ButtonR=(Button) findViewById(R.id.buttonReturn);
+//        ButtonR.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v){
+//                Intent intent = new Intent(MakeupDetails.this, MakeupStyle.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }

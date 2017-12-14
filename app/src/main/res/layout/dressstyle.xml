@@ -8,7 +8,12 @@
     android:layout_height="match_parent"
     android:background="#fff"
     >
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <!--搜索框-->
     <SearchView
         android:id="@+id/SV1"
@@ -341,6 +346,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/L8"
         android:text="个性化服装推荐" />
+</RelativeLayout>
+ </ScrollView>
 
     <!--下面-->
 

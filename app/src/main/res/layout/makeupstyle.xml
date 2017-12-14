@@ -8,6 +8,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dressassistant.MakeupStyle">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
     <SearchView
         android:id="@+id/SV1"
         android:layout_width="match_parent"
@@ -252,6 +258,8 @@
             android:text="c某"
             android:gravity="center"/>
     </LinearLayout>
+            </RelativeLayout>
+    </ScrollView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
