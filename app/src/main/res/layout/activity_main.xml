@@ -26,13 +26,13 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/style" />
+                app:srcCompat="@drawable/zt" />
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/style"
+                app:srcCompat="@drawable/zo"
                 />
 
         </LinearLayout>
@@ -55,14 +55,14 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/style"
+                app:srcCompat="@drawable/zo"
                 />
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/style"
+                app:srcCompat="@drawable/zt"
                 />
         </LinearLayout>
 
@@ -138,14 +138,14 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/style" />
+                app:srcCompat="@drawable/zo" />
+
             <ImageView
                 android:id="@+id/imageView9"
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/style"
-                />
+                android:layout_weight="1"
+                app:srcCompat="@drawable/zt" />
         </LinearLayout>
 
 
